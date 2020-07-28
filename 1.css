@@ -1,0 +1,378 @@
+*{margin: 0; padding: 0;}
+
+
+
+.khoittnho {
+    margin-bottom: 30px;
+}
+
+.khoittnho p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #636363;
+}
+
+span.motaquatrinh {
+    font-size: 20px;
+    font-family: segoe ui;
+    margin-bottom: 15px;
+    display: block;
+}
+
+h3.tieudecap3 {
+    font-size: 20px;
+    font-family: segoe ui light;
+    color: #e35855;
+    margin-bottom: 15px;
+}
+
+span.dam {
+    font-weight: bold;
+}
+
+h2.tieudecap2 {
+    font-weight: normal;
+    font-family: segoe ui light;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.tieudeto{
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+.tieudeto h1 {
+    background: url(image/42.jpg) no-repeat left bottom;
+    display: inline;
+    padding-bottom: 10px;
+}
+
+
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+nav.navbar.navbar-light.bg-dark.navbar-fixed-top {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    /*position: absolute;
+    z-index: 3;*/
+}
+
+a.nav-link {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: segoe ui;
+}
+
+li.nav-item {
+    padding: 0;
+    margin:0; 
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 33px;
+}
+
+a.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+/*CSS cho khoi tin*/
+
+.khoittin {
+    background-color: #e9585f;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.khoittin:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #e4555b;
+    width: 50%;
+    height: 100%;
+    z-index: 2;
+}
+
+a.nuthire.btn.btn-primary {
+    border: none;
+    background: black;
+    width: 180px;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+.tt p {
+    padding-top: 10px;
+    font-size: 15px;
+    width: 47%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.tt h2.display-4 {
+    font-size: 50px;
+    color: white;
+}
+
+.tt {
+    z-index: 4;
+    position: relative;
+    padding-top: 20%;
+}
+
+.tt img {
+    border-radius: 50%;
+    padding-bottom: 20px;
+    width: 200px;
+} 
+
+.xuong {
+    width: 40px;
+    height: 90px;
+    border: 1px solid white;
+    position: absolute;
+    left: 50%;
+    border-radius: 20px;
+    bottom: 2%;
+    margin-left: -20px;
+    z-index: 6;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.xuong:hover {
+    bottom: 5%;
+}
+
+.xuong:after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    background: white;
+    height: 5px;
+    top: 15%;
+    left: 46%;
+    transition: 0.4s;
+}
+
+/*Xong CSS cho khoi tin*/
+
+@media (max-width: 576px){
+    *{}
+    
+    a.link {
+        opacity: 1!important;
+        visibility: visible!important;
+        text-align: center;
+        align-items: center;
+        margin-left: 45%;
+        color: black;
+        text-decoration: none;
+    }
+
+    div#slidewrapper {
+    width: 0%;
+    height: 0%;
+    opacity: 0;
+    }
+
+    html,body {
+    width: 100%;
+    height: 100%;
+    }
+    
+    .menutop ul.nav.navbar-nav.float-xs-right {
+        float: none;
+        text-align: center;
+    }
+
+    .menutop li.nav-item {
+        display: inline;
+        margin: 0 0;
+    }
+
+    .menutop a.nav-link {
+        line-height: 28px;
+        display: inline;
+    }
+
+    .menutop a.navbar-brand {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+
+    /*Xong CSS cho phÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§n menu*/
+    
+    /*CSS thong tin*/
+
+    ul.nav.navbar-nav.float-xs-right {
+        background: white;
+        width: 109%;
+        display: block;
+        margin: 0;
+        padding-left: 75px;
+        margin-right: -15px;
+        border-top: 2px solid gray;
+    }
+
+    .tt h2.display-4 {
+    font-size: 45px;
+    padding-top: 15px;
+    }
+
+    .tt img {
+        width: 160px;
+        margin-top: 160px;
+    }
+    
+    .tt p {
+        width: 240px;
+    }
+    /* Xong CSS thong tin*/
+
+    .tieudeto h1 {
+    font-size: 25px;
+    }
+
+    h2.tieudecap2.text-sm-left.text-xs-center {
+    margin-top: 30px;
+    }
+}
+
+.len {
+    animation: cdlen 1s forwards;
+}
+
+@-webkit-keyframes cdlen {
+    from{transform: translateY(300px);opacity: 0;}
+    to {transform: translateY(0);opacity: 1;}
+}
+
+/*Scroll*/
+nav.navbar.navbar-light.bg-dark.navbar-fixed-top.mauden {
+    background:#e9585f;
+    transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+html,body,#slidewrapper,.slides,.slides ul,.slides ul li,.slides ul li ._1slide{width: 100%;height: 100%;}
+
+
+#slidewrapper {position: relative;overflow: hidden; background-color: black;}
+.slides {position: absolute;}
+.slides ul {position: relative;;list-style: none;}
+.slides ul li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: left center;
+    opacity: 0;
+}
+
+.slides ul li.dangxem {opacity: 1;}
+
+.nuts {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    z-index: 10;
+    transform: translateX(-50%);
+}
+.nuts b {
+    font-size: 100px;
+    color: #cebebe;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.nuts b:hover {
+    color: #a35050;
+}
+
+.bienmatnext {
+    animation: ani1 1s forwards;
+}
+@-webkit-keyframes ani1 {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+.divaonext {
+    animation: ani2 1s forwards;
+}
+
+@-webkit-keyframes ani2 {
+    from {
+        transform: scale(0.7);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.bienmatAnPre {
+    animation: ani2_nguoc 1s forwards;
+}
+@-webkit-keyframes ani2_nguoc {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: scale(0.7);
+        opacity: 0;
+    }
+}
+.divaoAnPre {
+    animation: ani1_nguoc 1s ease;
+}
+
+@-webkit-keyframes ani1_nguoc {
+    from {
+        transform: scale(2);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+a.link {
+    opacity: 0;
+    visibility: hidden;
+}

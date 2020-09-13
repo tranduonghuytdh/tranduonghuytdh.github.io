@@ -80,8 +80,6 @@
 
 
 
-
-
 document.addEventListener("DOMContentLoaded",function(){
 	var  nut = document.querySelectorAll('.chuyenslide ul li');
 	var slide = document.querySelectorAll('.cacslide ul li');

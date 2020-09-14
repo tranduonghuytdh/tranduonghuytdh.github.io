@@ -1,5 +1,29 @@
+ $(function(){
+ 	// console.log('Vị trí của chapter1 là : ' + $('').offset().top);
+
+ 	$('.ngang').on('click', function(event) {
+ 		event.preventDefault();
+ 		$('body,html').animate({scrollTop: $('#khoi').offset().top});
+ 	});
+
+ 	$(window).scroll(function(){
+  	if($('body,html').scrollTop() > 1050){
+  		$('.nutlen').addClass('hienthi');
+  	}
+  	else if($('body,html').scrollTop() <= 1050) {
+  		$('.nutlen').removeClass('hienthi');
+  	}
+  	})
+
+  	$('.nutlen').on('click', function(event) {
+  	$('body,html').animate({scrollTop: 0},1000);
+  	});
+
+ })
+
 
 document.addEventListener("DOMContentLoaded",function(){
+
 	var  nut = document.querySelectorAll('.chuyenslide ul li');
 	var slide = document.querySelectorAll('.cacslide ul li');
 	var thoigian = setInterval(function(){ autoSlide()},3000);
@@ -43,4 +67,5 @@ document.addEventListener("DOMContentLoaded",function(){
 			nut[0].classList.add('kichhoat');
 			}
 	}
+
 },false);	

@@ -14,6 +14,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">      
   <link rel="stylesheet" href="vendor/bootstrap.css">
   <link rel="stylesheet" href="vendor/font-awesome.css">
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery-1.12.3.js"></script>
   <link rel="stylesheet" href="2.css">
 
 </head>
@@ -356,7 +358,7 @@
   
   <div class="chuyenslide">
     <ul>
-      <li class="kichhoat"></li>
+      <li class="kichhoat" id="khoi"></li>
       <li ></li>
       <li></li>
     </ul>
@@ -383,16 +385,17 @@
 <!-- ///////////////////////// Sản Phẩm ////////////////////////////////////////////// -->
 <div class="ndcardlayer">
     <div class="container">
+
       <div class="row">
           <div class="card-deck-wrapper">
             <div class="card-deck">
               <div class="card">
-                <a href="#"><img class="card-img-top img-fluid" src="images/sp1.jpg"></a>
-                <div class="card-block">
+                  <a href="#"><img class="card-img-top img-fluid" src="images/sp1.jpg"></a>
+                  <div class="card-block">
                   <a href="#" class="product"><h4 class="card-title">TRÀ OOLONG BƯỞI MẬT ONG</h4></a>
                   <p class="card-text">50,000 đ</p>
-                  <a href="#" class="btn btnleft">Mua Ngay</a>
-                  <a href="#" class="btn btnright">Tìm Hiểu Thêm</a>
+                  <a href="#" class="menuitemleft">Mua Ngay</a>
+                  <a href="#" class="menuitemright">Tìm Hiểu Thêm</a>
                 </div>
               </div>
               
@@ -402,8 +405,8 @@
                   <a href="#" class="product"><h4 class="card-title">TRÀ OOLONG BƯỞI MẬT ONG</h4></a>
                   <p class="card-text">50,000 đ</p>
                   <div class="click">
-                  <a href="#" class="btn btnleft">Mua Ngay</a>
-                  <a href="#" class="btn btnright">Tìm Hiểu Thêm</a>
+                  <a href="#" class="menuitemleft">Mua Ngay</a>
+                  <a href="#" class="menuitemright">Tìm Hiểu Thêm</a>
                   </div>
                 </div>
               </div>
@@ -414,14 +417,27 @@
                   <a href="#" class="product"><h4 class="card-title">TRÀ OOLONG BƯỞI MẬT ONG</h4></a>
                   <p class="card-text">50,000 đ</p>
                   <div class="click">
-                  <a href="#" class="btn btnleft">Mua Ngay</a>
-                  <a href="#" class="btn btnright">Tìm Hiểu Thêm</a>
+                  <a href="#" class="menuitemleft">Mua Ngay</a>
+                  <a href="#" class="menuitemright">Tìm Hiểu Thêm</a>
+                  </div>
+                </div>
+              </div>
+
+               <div class="card">
+                <a href="#"><img class="card-img-top img-fluid" src="images/sp1.jpg"></a>
+                <div class="card-block">
+                  <a href="#" class="product"><h4 class="card-title">TRÀ OOLONG BƯỞI MẬT ONG</h4></a>
+                  <p class="card-text">50,000 đ</p>
+                  <div class="click">
+                  <a href="#" class="menuitemleft">Mua Ngay</a>
+                  <a href="#" class="menuitemright">Tìm Hiểu Thêm</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div> <!-- xong row -->
+
         <div class="row">
           <div class="card-deck-wrapper">
             <div class="card-deck">
@@ -431,8 +447,8 @@
                   <a href="#" class="product"><h4 class="card-title">TRÀ OOLONG BƯỞI MẬT ONG</h4></a>
                   <p class="card-text">50,000 đ</p>
                   <div class="click">
-                  <a href="#" class="btn btnleft">Mua Ngay</a>
-                  <a href="#" class="btn btnright">Tìm Hiểu Thêm</a>
+                  <a href="#" class="menuitemleft">Mua Ngay</a>
+                  <a href="#" class="menuitemright">Tìm Hiểu Thêm</a>
                   </div>
                 </div>
               </div>
@@ -443,8 +459,8 @@
                   <a href="#" class="product"><h4 class="card-title">TRÀ OOLONG BƯỞI MẬT ONG</h4></a>
                   <p class="card-text">50,000 đ</p>
                   <div class="click">
-                  <a href="#" class="btn btnleft">Mua Ngay</a>
-                  <a href="#" class="btn btnright">Tìm Hiểu Thêm</a>
+                  <a href="#" class="menuitemleft">Mua Ngay</a>
+                  <a href="#" class="menuitemright">Tìm Hiểu Thêm</a>
                   </div>
                 </div>
               </div>
@@ -455,21 +471,36 @@
                   <a href="#" class="product"><h4 class="card-title">TRÀ OOLONG BƯỞI MẬT ONG</h4></a>
                   <p class="card-text">50,000 đ</p>
                   <div class="click">
-                  <a href="#" class="btn btnleft">Mua Ngay</a>
-                  <a href="#" class="btn btnright">Tìm Hiểu Thêm</a>
+                  <a href="#" class="menuitemleft">Mua Ngay</a>
+                  <a href="#" class="menuitemright">Tìm Hiểu Thêm</a>
                   </div>
                 </div>
               </div>
+
+              <div class="card">
+                <a href="#"><img class="card-img-top img-fluid" src="images/sp1.jpg"></a>
+                <div class="card-block">
+                  <a href="#" class="product"><h4 class="card-title">TRÀ OOLONG BƯỞI MẬT ONG</h4></a>
+                  <p class="card-text">50,000 đ</p>
+                  <div class="click">
+                  <a href="#" class="menuitemleft">Mua Ngay</a>
+                  <a href="#" class="menuitemright">Tìm Hiểu Thêm</a>
+                  </div>
+                </div>
+              </div>      
             </div>
           </div>
         </div> <!-- xong row -->
+
+        
       </div> <!-- xong container -->
     </div> <!-- Xong layer -->
 
 
 <!-- ///////////////////////// Xong Sản Phẩm ////////////////////////////////////////////// -->
+  
 
-<!-- ////////// Footer //////////////// -->
+  <!-- ////////// Footer //////////////// -->
   <div class="footer">
   <div class="container">
     <div class="row">
@@ -501,7 +532,7 @@
             </p>
         </div>
         <div class="col-sm-3">
-             <h1 class="title">DELIVERY</h1>
+             <h1 class="title title1">DELIVERY</h1>
              <p class="ft">
                 Shipping methods
                 <br />
@@ -530,21 +561,15 @@
   <!-- ////////// Xong Footer //////////////// -->
 
 
-
-<script type="text/javascript" src="2.js"></script>
-
-
-
-
-
+  <div class="navbar-fixed-bottom">
+    <a href="#" class="btn btn-primary nutlen float-xs-right">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
 
 
 
-
-
-
-
-
+  <script type="text/javascript" src="2.js"></script>
 
 </body>
 </html>

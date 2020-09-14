@@ -1,7 +1,7 @@
  $(function(){
  	// console.log('Vị trí của chapter1 là : ' + $('').offset().top);
 
- 	$('.ngang').on('click', function(event) {
+ 	$('.sp').on('click', function(event) {
  		event.preventDefault();
  		$('body,html').animate({scrollTop: $('#khoi').offset().top});
  	});

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Form đăng ký</title>
+	<link rel="stylesheet" type="text/css" href="css/dangky.css" />
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.js"></script>
+	<script type="text/javascript" src="js/dangky.js"></script>
+</head>
+<body>
+	<form class="form" method="get" name="frmLogin" id="frmLogin">
+
+		<h2>ĐĂNG KÝ</h2>	
+		<p>
+			<label>Tên truy cập (*):</label>
+			<input name="username" value="" type="text" placeholder="Choose your username" />
+		</p>
+		<p>
+			<label>Mật khẩu (*):</label>
+			<input name="password" value="" type="password" placeholder="Creat a new password" id="mk1" />
+		</p>
+		<p>
+			<label>Xác nhận mật khẩu (*):</label>
+			<input name="repassword" value="" type="password" placeholder="Confirm your password" />
+		</p>
+		<p>
+			<label>Họ và tên (*):</label>
+			<input name="fullname" value="" type="text" placeholder="Write your name here.." />
+		</p>
+		<p>
+			<label>Năm sinh (*):</label>
+			<input name="birthday" value="" type="text" placeholder="Tell us your birth day" />
+		</p>
+		<p>
+			<label>Giới tính (*):</label>
+			<p>
+				Nam</span><input type="radio" value="nam" name="gioitinh" />
+				Nữ</span><input type="radio" value="nu" name="gioitinh" />
+			</p>
+		</p>
+		<p>
+			<label>Địa chỉ (*):</label>
+			<select name="city">
+				<option value="">--[Chọn]--</option>
+				<option value="danang">Đà Nẵng</option>
+				<option value="hochiminh">Hồ Chí Minh</option>
+				<option value="hanoi">Hà Nội</option>
+			</select>
+		</p>
+		<p>
+			<label>Số điện thoại:</label>
+			<input name="phone" value="" type="text" placeholder="Enter your phone number.." />
+		</p>
+		<p>
+			<label>Email (*):</label>
+			<input name="email" value="" type="text" placeholder="Let us know how to contact you back.." />
+		</p>
+		<p>
+			<label>Facebook:</label>
+			<input name="facebook" value="" type="text" placeholder="Enter your facebook profile" />
+		</p>
+		<p>
+			<input type="submit" name="submit" value="ĐĂNG KÝ" />
+			<input type="reset" name="reset" value="RESET" />
+		</p>
+		<div class="contact">
+			<span class="fa fa-phone"></span>.....
+			<span class="fa fa-envelope-o"></span>UHouse Coffe
+		</div>
+	</form>
+
+</body>
+</html>

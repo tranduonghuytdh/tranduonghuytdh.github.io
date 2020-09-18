@@ -1,9 +1,14 @@
 * {margin:0;padding: 0;}
 
+.tin.tin1 {
+	margin-top: 30px;
+}
+
 .tin {
 	width: 190px;
 	height: 310px;
 	margin-right: 10px;
+	margin-top: 20px;
 	float: left;
 }
 
@@ -61,3 +66,114 @@ p.prace {
 	font-weight: bold;
 	padding-bottom: 5px;
 }
+
+
+/*///////////////////////////////////////////////////*/
+
+
+.navbar.navbar-light.menutop {
+    background-color: #5C4C4F;
+    border: none;
+    width: 100%;
+    height: 80px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+}
+
+a.chu {
+    color: white;
+    line-height: 45px;
+    font-size: 30px;
+    font-family: tahoma;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 55px;
+}
+
+a.chu:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+ul.navbar-nav li.nav-item a.nav-link {
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: segoe ui;
+    line-height: 40px;
+}
+
+ul.navbar-nav li.nav-item a.nav-link:hover {
+    color: white;
+}
+
+ul.layer_1 li{
+    padding: 10px;
+    list-style: none;
+}
+
+.all {
+    position: relative;
+}
+
+a.nav-link.ngang::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: #EA8025;
+    left: 0px;
+    transition: 0.4s;
+    bottom: 14px;
+}
+
+a.nav-link.ngang:hover:after {
+    width: 100%;
+}
+
+a.nav-link.ngang:before {
+    content: '';
+    height: 50px;
+    width: 300px;
+    background-color: black;
+    top: 0;
+    left: 0;
+}
+
+.all .layer1 {
+    position: absolute;
+    top: 60px;
+    width: 260px;
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+
+li.nav-item:hover .layer1 {
+    top: 40px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.layer1 ul.layer_1 li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: segoe ui;
+}
+
+ul.layer_1 li {
+    border-bottom: 1px solid black; 
+}
+
+ul.layer_1 li:last-child {
+    border-bottom: none;
+}
+
+/*//////////////////////////////// Xong navbar /////////////////////////////*/

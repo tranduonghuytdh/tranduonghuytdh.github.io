@@ -1,0 +1,332 @@
+*{margin: 0; padding: 0;} 
+
+.navbar.navbar-light.menutop {
+    background-color: #5C4C4F;
+    border: none;
+    width: 100%;
+    height: 80px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+}
+
+a.chu {
+    color: white;
+    line-height: 45px;
+    font-size: 30px;
+    font-family: tahoma;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 55px;
+}
+
+
+ul.navbar-nav li.nav-item a.nav-link {
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: segoe ui;
+    line-height: 40px;
+}
+
+ul.navbar-nav li.nav-item a.nav-link:hover {
+    color: white;
+}
+
+ul.layer_1 li{
+    padding: 10px;
+    list-style: none;
+}
+
+.all {
+    position: relative;
+}
+
+a.nav-link.ngang::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: #EA8025;
+    left: 0px;
+    transition: 0.4s;
+    bottom: 14px;
+}
+
+a.nav-link.ngang:hover:after {
+    width: 100%;
+}
+
+a.nav-link.ngang:before {
+    content: '';
+    height: 50px;
+    width: 300px;
+    background-color: black;
+    top: 0;
+    left: 0;
+}
+
+.all .layer1 {
+    position: absolute;
+    top: 60px;
+    width: 260px;
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+
+li.nav-item:hover .layer1 {
+    top: 40px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.layer1 ul.layer_1 li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: segoe ui;
+}
+
+ul.layer_1 li {
+    border-bottom: 1px solid black; 
+}
+
+ul.layer_1 li:last-child {
+    border-bottom: none;
+}
+
+/*//////////////////////////////// Xong navbar /////////////////////////////*/
+
+html,body{width: 100%;height: 100%;}
+/*CSS cho cacslide*/
+.slidewrapper {width: 100%;height: 100%;position: relative;overflow: hidden;margin-bottom: 30px;}
+/*Phan full man hinh va chia layer*/
+.cacslide {width: 100%;height: 100%;position: absolute;transition: 1.4s;}
+
+.cacslide ul {width: 100%;height: 100%;position: relative;}
+
+.cacslide ul li {width: 100%;height: 100%;position: absolute;list-style: none;opacity: 0;}
+
+.cacslide ul li.active {opacity: 1;transition: 0.4s;}
+
+.cacslide ul li .motslide {width: 100%;height: 100%;position: relative;}
+
+.motslide {width: 100%;height: 100%;}
+
+.motslide .anh {width: 100%;height: 100%;background-size: cover;}
+
+.motslide .anh1 {
+    background: url(../images/cafe3.jpg) left 20%;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.motslide .anh2 {
+    background: url(../images/cafe4.jpg) left 100%;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.motslide .anh3 {
+    background: url(../images/cafe2.jpg) left -80%;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+
+/*CSS chuyenslide*/
+*{margin: 0; padding: 0;}
+
+.chuyenslide ul li {
+    display: inline-block;
+    border: 1px solid white;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin: 20px 10px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.chuyenslide {
+    text-align: center;
+} 
+
+.chuyenslide ul li.kichhoat {
+    background: #00000096;
+}
+
+.chuyenslide {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    bottom: 3%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+
+/*//////////////////////////////////// Xong Slide ///////////////////////////////////*/
+
+
+.content {
+    margin-bottom: 30px;
+}
+
+.left , a.right {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.left {
+    color: #EA8025;
+    font-size: 30px;
+}
+
+.left:after {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #EA8025;
+    display: block;
+}
+
+a.right {
+    font-size: 15px;
+    line-height: 47px;
+    color: black;
+}
+
+.card {
+    border: none;
+}
+
+a.product {
+    color: black;
+    text-decoration: none;
+}
+
+h4.card-title {
+    font-size: 15px;
+    margin-left: -20px;
+    font-weight: bold;
+    font-family: tahoma;
+}
+
+h4.card-title:hover {
+    color: #EA8025;
+}
+
+p.card-text {
+    font-size: 15px;
+    margin-left: -20px;
+    text-transform: uppercase;
+    color: #EA8025;
+    font-weight: bold;
+    font-family: tahoma;
+}
+
+a.menuitemleft {
+    margin-left: -20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    font-family: segoe ui;      
+    border: 2px solid #EA8025;
+    padding: 4px 6px;
+    text-decoration: none;
+    background-color: #EA8025;  
+    animation: matdi 3s forwards;
+    transition: 0.4s;
+}
+
+a.menuitemleft:hover {
+    background-color: transparent;
+    color: #EA8025;  
+}
+
+a.menuitemright {
+    font-size: 13px;
+    font-weight: bold;
+    color: #EA8025; 
+    display: inline-block;
+    font-family: segoe ui;      
+    border: 2px solid #EA8025;
+    padding: 4px 6px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a.menuitemright:hover {
+    background-color: #EA8025;
+    color: white;  
+}
+
+/*/////////////////////////////////////// Xong San Pham //////////////////////////////////////////*/
+
+.footer {
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+}
+
+h2.td , h1.title {
+    font-family: tahoma;
+    margin-top: 50px;
+}
+
+h2.td {
+    font-weight: bold;
+}
+
+h1.title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p.ft {
+    font-size: 15px;
+}
+
+.bt {
+    font-size: 17px;
+}
+
+/*//////////////////////////// nut len ////////////////*/
+
+.nutlen {
+    transition: 0.4s;
+    border-radius: 50%;
+    font-size: 10px;
+    background-color: black;
+    border: black;
+    opacity: 0; 
+}
+
+.nutlen:hover {
+    transition: 0.4s;
+    border-radius: 50%;
+    font-size: 10px;
+    background-color: black;
+    border: black;
+}
+
+.nutlen.hienthi {
+    opacity: 1;
+}
+
+
+.anh {
+    width: 330px;
+    height: 266px;
+}

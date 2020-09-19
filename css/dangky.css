@@ -117,3 +117,9 @@ label.error{
 	color:red;
 	font-style: italic;
 }
+
+a.phone {
+	text-decoration: none;
+	color: white;
+	padding-left: 10px;
+}

@@ -1,8 +1,6 @@
 @font-face { font-family: Roboto; src: url('font/Roboto-Regular.ttf'); }
 
 body{
-	/*background:url('background.jpg');*/
-	margin:0;
 	font-family: 'Roboto', sans-serif;
 }
 .form{
@@ -37,7 +35,6 @@ div.contact{
 }
 span{margin:0 5px 0 15px}
 
-/*--------- CSS FORM ELEMENT--------*/
 input,textarea{
 	width:100%;
 	padding:10px;
@@ -109,7 +106,8 @@ select {
     appearance:none;
     cursor:pointer;
 }
-/*---------- CSS ERROR ---------------*/
+
+
 label.error{
 	display:block;
 	margin: 0;
@@ -123,3 +121,6 @@ a.phone {
 	color: white;
 	padding-left: 10px;
 }
+
+
+

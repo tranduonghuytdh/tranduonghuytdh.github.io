@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+* {margin: 0; padding: 0;}
 
 body {
   background: url(../images/background.jpg); 
@@ -7,6 +7,10 @@ body {
   height: 100%;
   background-size: cover;
   overflow-x: hidden;
+  /*font-family: 'Roboto Mono', monospace;*/
+  /*font-family: 'Nunito', sans-serif;*/
+  /*font-family: 'Noto Serif', serif;*/
+  font-family: 'Saira', sans-serif;
 }
 
 .wrapper {
@@ -116,3 +120,27 @@ input[type=text] {
     color: red;
     display: block;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
